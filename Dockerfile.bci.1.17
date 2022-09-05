@@ -2,7 +2,7 @@
 
 ARG BCI_MICRO=registry.suse.com/bci/bci-micro
 ARG BCI_GO=registry.suse.com/bci/golang
-ARG GO_VERSION=1.18
+ARG GO_VERSION=1.17
 ARG GORELEASER_XX_VERSION=1.2.5
 
 FROM crazymax/goreleaser-xx:${GORELEASER_XX_VERSION} AS goreleaser-xx
